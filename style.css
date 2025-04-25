@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+
+}
+
+.cell{
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    line-height: 70px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.cell-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 225px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#restart-btn{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 60px;
+    height: 30px;
+    color: whitesmoke;
+    background-color: rgb(102, 32, 32);
+}
